@@ -1,0 +1,3 @@
+[submodule "app/static/lr-style-guide"]
+	path = app/static/lr-style-guide
+	url = https://github.com/LandRegistry/lr-style-guide.git

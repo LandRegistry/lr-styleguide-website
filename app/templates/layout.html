@@ -1,0 +1,30 @@
+{% set asset_path = '/static/govuk_template/' %}
+{% set homepage_url = '/' %}
+
+{% extends "govuk_template.html" %}
+
+{% block head %}
+
+  <!-- Styleguide website only assets - for examples and code highlighting -->
+  <!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" href="/static/demo/vendor/prism/prism.css"><!--<![endif]-->
+  <link href="/static/demo/css/styleguide-examples.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+  <!-- Styleguide assets -->
+  <!--[if gt IE 8]><!--><link href="#" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->
+  <!--[if IE 8]><link href="#" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if IE 7]><link href="#" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if IE 6]><link href="#" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+{% endblock %}
+
+{%  block body_end %}
+
+  <!-- Styleguide website only assets - for examples and code highlighting -->
+  <!--[if gt IE 8]><!--><script type="text/javascript" src="/static/demo/vendor/prism/prism.js"></script><!--<![endif]-->
+
+
+  <!-- Styleguide assets -->
+  <script type="text/javascript" src="#"></script>
+
+{% endblock %}

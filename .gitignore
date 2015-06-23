@@ -58,3 +58,6 @@ target/
 
 # Apple stuff
 .DS_Store
+
+# Flask-Assets
+.webassets-cache

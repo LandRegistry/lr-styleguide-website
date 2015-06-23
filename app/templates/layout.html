@@ -7,8 +7,10 @@
 
   <!-- Styleguide website only assets - for examples and code highlighting -->
   <!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" href="/static/demo/vendor/prism/prism.css"><!--<![endif]-->
-  <link href="/static/demo/css/styleguide-examples.css" media="screen" rel="stylesheet" type="text/css" />
 
+  {% assets "styleguide_website" %}
+    <link rel="stylesheet" type="text/css"  media="screen" href="{{ ASSET_URL }}"></script>
+  {% endassets %}
 
   <!-- Styleguide assets -->
   <!--[if gt IE 8]><!--><link href="/static/lr-style-guide/lr-styleguide/css/styleguide.css" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->

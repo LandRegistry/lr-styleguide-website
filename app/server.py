@@ -1,8 +1,19 @@
+import os
 from flask import Flask, render_template
-
-from os import environ
+from flask.ext import assets
 
 app = Flask(__name__)
+
+env = assets.Environment(app)
+
+env.register(
+    'styleguide_website',
+    assets.Bundle(
+        'demo/sass/styleguide-examples.scss',
+        filters='scss',
+        output='demo/css/styleguide-examples.css'
+    )
+)
 
 
 # Small thing to allow source code examples in a template
@@ -58,5 +69,5 @@ def search_results():
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
-    port = int(environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=True)

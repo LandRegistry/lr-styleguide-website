@@ -2,7 +2,15 @@
 
 Website for the lr-style-guide repo.
 
-Demonstrates one way to consume the style guide
+Demonstrates one way to consume the style guide.
+
+We’re going to install the styleguide as a submodule, then pass the assets through this site’s
+ Flask Assets pipeline.
+
+Grab the style guide as a submodule:
+```git submodule add https://github.com/LandRegistry/lr-style-guide.git ./app/static```
+
+
 
 ## Working on this website
 

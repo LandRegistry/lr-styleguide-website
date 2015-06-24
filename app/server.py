@@ -49,6 +49,10 @@ def tables_and_data_display():
 def panels_and_callouts():
     return render_template('styleguide/panels_and_callouts.html')
 
+@app.route('/utilities')
+def utilities():
+    return render_template('styleguide/utilities.html')
+
 # Components
 
 @app.route('/breadcrumbs')

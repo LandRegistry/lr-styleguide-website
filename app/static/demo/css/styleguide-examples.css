@@ -125,3 +125,14 @@
   text-indent: -999em;
   margin: 0;
 }
+
+/* line 77 */
+.example-view.utilities > div {
+  padding: 1px 0;
+  background-color: #fff2d3;
+  margin-bottom: 15px;
+}
+/* line 83 */
+.example-view.utilities [class*='collapse-'], .example-view.utilities [class*='expand'] {
+  background-color: #d5e8f3;
+}

@@ -71,3 +71,18 @@
   margin: 0;
 }
 
+// block to demonstrate utility classes
+.example-view.utilities {
+
+  & > div {
+    padding: 1px 0;
+    background-color: $yellow-25;
+    margin-bottom: $gutter-half;
+  }
+
+  & [class*='collapse-'],
+  & [class*='expand'] {
+    background-color: $light-blue-25;
+  }
+
+}

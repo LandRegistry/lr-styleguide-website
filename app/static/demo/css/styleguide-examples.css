@@ -136,3 +136,75 @@
 .example-view.utilities [class*='collapse-'], .example-view.utilities [class*='expand'] {
   background-color: #d5e8f3;
 }
+
+/* line 93 */
+.division-standard {
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #dee0e2;
+  border-bottom: 1px solid #dee0e2;
+}
+
+/* line 102 */
+.division-standard-top {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #dee0e2;
+}
+
+/* line 108 */
+.division-standard-bottom {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dee0e2;
+}
+
+/* line 114 */
+.division-primary {
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-top: 4px solid #2b8cc4;
+  border-bottom: 4px solid #2b8cc4;
+}
+
+/* line 123 */
+.division-primary-top {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 4px solid #2b8cc4;
+}
+
+/* line 129 */
+.division-primary-bottom {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #2b8cc4;
+}
+
+/* line 135 */
+.division-secondary {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #dee0e2;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #dee0e2;
+}
+
+/* line 144 */
+.division-secondary-top {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #dee0e2;
+}
+
+/* line 150 */
+.division-secondary-bottom {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #dee0e2;
+}

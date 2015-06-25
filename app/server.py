@@ -53,6 +53,10 @@ def tables_and_data_display():
 def panels_and_callouts():
     return render_template('styleguide/panels_and_callouts.html')
 
+@app.route('/sticky-panel')
+def sticky_panel():
+    return render_template('styleguide/sticky_panel.html')
+
 @app.route('/dividers')
 def dividers():
     return render_template('styleguide/dividers.html')

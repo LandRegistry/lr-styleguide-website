@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Sticky panel | Style Guide
+{% endblock %}
+
+{% block content %}
+
+  <main id="content" role="main">
+  
+    <div class="text">
+
+      <p><a href="/">Home</a></p>
+
+      <h1 class="heading-xlarge">
+        <span class="heading-secondary">Land Registry style guide</span>
+        Sticky panel
+      </h1>
+
+    </div>
+
+    <div class="grid-row">
+      <div class="column-half">
+        <div class="example-view" style="height: 1200px;">
+          {% include "styleguide/snippets/panels_and_callouts/sticky_panel.html" %}
+        </div>
+      </div>
+
+      <div class="column-half">
+        <div class="example-code">
+<pre><code class="language-markup">{{ include_raw('styleguide/snippets/panels_and_callouts/sticky_panel.html') | escape }}</code></pre>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+{% endblock %}

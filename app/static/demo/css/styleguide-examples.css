@@ -136,3 +136,8 @@
 .example-view.utilities [class*='collapse-'], .example-view.utilities [class*='expand'] {
   background-color: #d5e8f3;
 }
+
+/* line 91 */
+.icon {
+  margin: 30px 0;
+}

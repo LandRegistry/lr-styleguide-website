@@ -29,6 +29,10 @@ def home():
 def typography():
     return render_template('styleguide/typography.html')
 
+@app.route('/icons')
+def icons():
+    return render_template('styleguide/icons.html')
+
 @app.route('/layout')
 def layout():
     return render_template('styleguide/layout.html')
